@@ -1,0 +1,9 @@
+import test.Book
+
+model {
+    List<Book> books
+}
+
+json {
+    books tmpl.book(books)
+}

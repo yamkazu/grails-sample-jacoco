@@ -1,0 +1,9 @@
+import test.Author
+
+model {
+    Author author
+}
+
+json {
+    name author.name
+}

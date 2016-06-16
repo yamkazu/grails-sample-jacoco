@@ -1,0 +1,10 @@
+import test.Book
+
+model {
+    Book book
+}
+
+json {
+    title book.title
+    authors tmpl.author(book.authors)
+}
